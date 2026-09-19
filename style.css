@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #aaa;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 25px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #ccc;
+}
+
+button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 14px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about {
+    padding: 70px 25px;
+    text-align: center;
+    background: #1c1c1c;
+}
+
+.about p {
+    max-width: 650px;
+    margin: 20px auto;
+    color: #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #888;
+}
